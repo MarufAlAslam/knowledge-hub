@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "title": "How to get your first job as a self-taught programmer",
+        "postedOn": "Mar 14 (4 Days ago)",
+        "minutesToRead": 5,
+        "tags": [
+            "career",
+            "programming"
+        ],
+        "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "avatar": "https://img.freepik.com/free-icon/avatar_318-158392.jpg"
+    }
+]
