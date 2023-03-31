@@ -18,7 +18,7 @@ const Blogs = ({blogs, updateReadTime, updateBookmarks}) => {
             {
                 blogs.map(blog => (
                     <div key={blog.id} className="blog-container mb-5">
-                        <img src={blog.image} className='w-full h-[300px] object-cover rounded-md mb-4' alt="" />
+                        <img src={blog.image} className='w-full h-[350px] object-left-top object-cover rounded-md mb-4' alt="" />
                         <div className="flex justify-between items-center">
                         <div className="flex items-center justify-start">
                             <img src={blog.avatar} className='w-10 h-10 rounded-full mr-4' alt="" />
