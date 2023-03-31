@@ -34,7 +34,7 @@ const Body = () => {
         }
     }
 
-    console.log(bookmarks)
+    // console.log(bookmarks)
 
 
     // console.log(blogs)

@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "name": "John Doe",
+        "name": "Babu Rao",
         "title": "How to get your first job as a self-taught programmer",
-        "postedOn": "Mar 14 (4 Days ago)",
+        "postedOn": "Mar 14 (17 Days ago)",
         "minutesToRead": 5,
         "tags": [
             "career",
@@ -14,15 +14,44 @@
     },
     {
         "id": 2,
-        "name": "John Doe",
-        "title": "How to get your first job as a self-taught programmer",
-        "postedOn": "Mar 14 (4 Days ago)",
-        "minutesToRead": 5,
+        "name": "Akkas Ali",
+        "title": "How to get started with React Native",
+        "postedOn": "Mar 18 (13 Days ago)",
+        "minutesToRead": 3,
         "tags": [
-            "career",
-            "programming"
+            "javascript",
+            "react",
+            "react-native"
         ],
-        "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "avatar": "https://img.freepik.com/free-icon/avatar_318-158392.jpg"
+        "image": "https://t2497514.p.clickup-attachments.com/t2497514/2d49423e-465b-462b-a460-b14a6512333a/OG%20image%20button%201200%20x%20635.png",
+        "avatar": "https://secure.gravatar.com/avatar/4ae80f9c52590743dd5433cac6574bef?s=200&d=identicon&r=g"
+    },
+    {
+        "id": 3,
+        "name": "Moyna Akter",
+        "title": "What is Create-React-App and how to use it",
+        "postedOn": "Mar 20 (11 Days ago)",
+        "minutesToRead": 6,
+        "tags": [
+            "javascript",
+            "react",
+            "cra"
+        ],
+        "image": "https://www.freecodecamp.org/news/content/images/2020/12/cra-npm-scripts-explained.png",
+        "avatar": "https://www.ekushey.info/wp-content/uploads/2012/05/Irin-Akter-Munni.png"
+    },
+    {
+        "id": 4,
+        "name": "Momin Khan",
+        "title": "How to design a website",
+        "postedOn": "Mar 30 (1 Days ago)",
+        "minutesToRead": 10,
+        "tags": [
+            "website",
+            "html-css",
+            "design"
+        ],
+        "image": "https://img.freepik.com/free-vector/cartoon-web-design-landing-page_52683-70880.jpg",
+        "avatar": "https://i.pinimg.com/550x/4d/72/97/4d7297dad94265c0acbc3b677d418935.jpg"
     }
 ]
