@@ -1,11 +1,16 @@
 import React from 'react'
 import { BsBookmarkCheck } from 'react-icons/bs'
 
-const Blogs = ({blogs, updateReadTime}) => {
+const Blogs = ({blogs, updateReadTime, updateBookmarks}) => {
 
     const readTimeUpdateHandler = (id) => {
         const blog = blogs.find(blog => blog.id === id)
         updateReadTime(blog.minutesToRead)
+    }
+
+    const bookmarkUpdateHandler = (id) => {
+        const blog = blogs.find(blog => blog.id === id)
+        updateBookmarks(blog)
     }
     // console.log(blogs)
     return (
@@ -26,7 +31,7 @@ const Blogs = ({blogs, updateReadTime}) => {
                             <p>
                                 {blog.minutesToRead < 10 ? `0${blog.minutesToRead}` : blog.minutesToRead} min read
                             </p>
-                            <button className='btn ml-2'>
+                            <button className='btn ml-2' onClick={()=>bookmarkUpdateHandler(blog.id)}>
                                 <BsBookmarkCheck/>
                             </button>
                         </div>
