@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Blogs from './Blogs'
 import Sidebar from './Sidebar'
+import { toast } from 'react-toastify'
 
 
 const Body = () => {
@@ -23,9 +24,12 @@ const Body = () => {
         // check if aleady bookmarked
         const isBookmarked = bookmarks.find(bookmark => bookmark.id === blog.id)
         if(isBookmarked){
-            alert('Already Bookmarked')
+            const notify = () => toast.error("Alredy Bookmarked!!!");
+            notify()
         }
         else{
+            const notify = () => toast.success("Bookmarked Added!!!");
+            notify()
             setBookmarks([...bookmarks, blog])
         }
     }
