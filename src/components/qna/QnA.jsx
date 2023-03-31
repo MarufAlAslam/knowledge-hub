@@ -25,7 +25,7 @@ const QnA = () => {
     ]
     return (
         <div>
-            <h1 className='text-3xl font-bold text-center'>Questions and Answers</h1>
+            <h1 className='text-3xl font-bold text-center lg:mt-0 mt-8'>Questions and Answers</h1>
             <div className="qna-container mt-10">
                 {
                     qna.map(q => (
