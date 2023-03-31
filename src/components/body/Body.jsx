@@ -28,7 +28,7 @@ const Body = () => {
             notify()
         }
         else{
-            const notify = () => toast.success("Bookmarked Added!!!");
+            const notify = () => toast.success("Bookmark Added!!!");
             notify()
             setBookmarks([...bookmarks, blog])
         }
