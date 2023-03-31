@@ -1,7 +1,12 @@
 import React from 'react'
 import { BsBookmarkCheck } from 'react-icons/bs'
 
-const Blogs = ({blogs}) => {
+const Blogs = ({blogs, updateReadTime}) => {
+
+    const readTimeUpdateHandler = (id) => {
+        const blog = blogs.find(blog => blog.id === id)
+        updateReadTime(blog.minutesToRead)
+    }
     // console.log(blogs)
     return (
         <div className='lg:pr-10 pr-0'>
@@ -35,7 +40,7 @@ const Blogs = ({blogs}) => {
                             ))
                         }
                         </p>
-                        <button className='btn font-semibold underline mt-3 text-[#6047EC]'>
+                        <button className='btn font-semibold underline mt-3 text-[#6047EC]' onClick={()=>readTimeUpdateHandler(blog.id)}>
                             Mark as read
                         </button>
                         <hr className='mt-5' />
